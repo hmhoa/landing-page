@@ -8,10 +8,10 @@ body {
 /* Header, Hero, and Footer */
 .header, .intro, .footer {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-
     background-color: #1F2937;
+    padding: 16px 32px;
 }
 
 .header h3 {
@@ -24,7 +24,7 @@ ul {
     display: flex;
     margin: 0;
     padding: 0;
-    gap: 16px;
+    gap: 24px;
     align-items: center;
     list-style-type: none; /* gets rid of bullets */
 }
@@ -40,13 +40,12 @@ a {
 
 /* Section 1 - Hero */
 .intro {
-    padding: 24px;
+    gap: 24px;
 }
 
 .content {
     display: flex;
     flex-direction: column;
-    padding: 32px;
 }
 
 .content h1 {
@@ -65,7 +64,43 @@ button {
     padding: 8px 16px;
 }
 
-img {
-    width: 500px;
+.intro img {
+    max-width: 500px; /* image scales down if it has to, but never scale up to be larger than set size */
     height: auto;
+}
+
+/* Section 2 - Cards and Info */
+.card-area {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: #1F2937;
+}
+
+.card-area h2 {
+    font-size: 36px;
+    font-weight: bolder;
+    text-align: center;
+    padding: 12px;
+}
+
+.cards {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    gap: 52px;
+}
+
+.info img {
+    width: 200px;
+    height: 200px;
+    border: 5px solid #3882F6;
+    border-radius: 8px;
+}
+
+.info p {
+    max-width: 200px;
+    text-align: center;
+    flex: row wrap;
+    font-size: 18px;
 }
