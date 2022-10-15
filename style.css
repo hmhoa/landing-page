@@ -29,7 +29,7 @@ ul {
     list-style-type: none; /* gets rid of bullets */
 }
 
-.header-links a, .content p, button {
+a, .content p, button, .footer .text {
     font-size: 18px;
     color: #E5E7EB;
 }
@@ -97,6 +97,7 @@ button {
     height: 200px;
     border: 5px solid #3882F6;
     border-radius: 8px;
+    /*box-shadow: 0 0 15px 0 lightslategray;*/
 }
 
 .info p {
