@@ -1,0 +1,71 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    font-family: Roboto, sans-serif, monospace;
+}
+
+/* Header, Hero, and Footer */
+.header, .intro, .footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    background-color: #1F2937;
+}
+
+.header h3 {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+/* using ul.header-links does not get rid of the bullet points */
+ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 16px;
+    align-items: center;
+    list-style-type: none; /* gets rid of bullets */
+}
+
+.header-links a, .content p, button {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+a {
+    text-decoration: none; /* gets rid of underlines */
+}
+
+/* Section 1 - Hero */
+.intro {
+    padding: 24px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    padding: 32px;
+}
+
+.content h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+    margin: 0;
+}
+
+button {
+    font-family: Roboto, sans-serif;
+    width: 100px;
+    background-color: #3882F6;
+    border: none;
+    border-radius: 8px;
+    padding: 8px 16px;
+}
+
+img {
+    width: 500px;
+    height: auto;
+}
