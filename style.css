@@ -34,7 +34,7 @@ a, .content p, button, .footer .text {
     color: #E5E7EB;
 }
 
-a {
+.header a {
     text-decoration: none; /* gets rid of underlines */
 }
 
@@ -74,9 +74,10 @@ button {
 .card-area {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
     color: #1F2937;
     padding: 48px 128px;
+    margin-bottom: 16px;
 }
 
 .card-area h2 {
@@ -136,7 +137,7 @@ button {
     flex: 1;
     justify-content: center;
     align-items: center;
-    padding: 24px 128px;
+    padding: 64px 128px;
 }
 
 .call-to-action {
