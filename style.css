@@ -40,7 +40,7 @@ a {
 
 /* Section 1 - Hero */
 .intro {
-    padding: 48px 48px;
+    padding: 48px 64px;
     gap: 24px;
 }
 
@@ -76,13 +76,14 @@ button {
     flex-direction: column;
     justify-content: space-between;
     color: #1F2937;
+    padding: 48px 64px;
 }
 
 .card-area h2 {
     font-size: 36px;
     font-weight: bolder;
     text-align: center;
-    padding: 12px;
+    padding-bottom: 12px;
 }
 
 .cards {
@@ -105,4 +106,26 @@ button {
     text-align: center;
     flex: row wrap;
     font-size: 18px;
+}
+
+/* Section 3 with large quote text */
+.quote-area {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+    color: #1F2937;
+    padding: 16px 64px;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+}
+
+.quote-src {
+    font-size: 18px;
+    font-weight: bold;
+    align-self: flex-end;
 }
