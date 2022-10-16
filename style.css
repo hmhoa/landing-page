@@ -11,7 +11,7 @@ body {
     justify-content: space-between;
     align-items: center;
     background-color: #1F2937;
-    padding: 16px 48px;
+    padding: 16px 128px;
 }
 
 .header h3 {
@@ -40,16 +40,16 @@ a {
 
 /* Section 1 - Hero */
 .intro {
-    padding: 48px 64px;
+    padding: 48px 128px;
     gap: 24px;
 }
 
-.content {
+.intro.content {
     display: flex;
     flex-direction: column;
 }
 
-.content h1 {
+.intro .content h1 {
     font-size: 48px;
     font-weight: bolder;
     color: #F9FAF8;
@@ -76,7 +76,7 @@ button {
     flex-direction: column;
     justify-content: space-between;
     color: #1F2937;
-    padding: 48px 64px;
+    padding: 48px 128px;
 }
 
 .card-area h2 {
@@ -116,7 +116,7 @@ button {
     align-items: center;
     background-color: #E5E7EB;
     color: #1F2937;
-    padding: 16px 64px;
+    padding: 16px 128px;
 }
 
 .quote {
@@ -128,4 +128,45 @@ button {
     font-size: 18px;
     font-weight: bold;
     align-self: flex-end;
+}
+
+/* Section 4 with call to action */
+.container {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 128px;
+}
+
+.call-to-action {
+    display: flex;
+    max-height: 50px;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+    background-color: #3882F6;
+    padding: 48px 64px;
+    border-radius: 8px;
+}
+
+.call-to-action.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.content h3 {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.call-to-action button {
+    border: 1px solid white;
+}
+
+/* Footer */
+.footer {
+    justify-content: center;
 }
