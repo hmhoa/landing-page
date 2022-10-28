@@ -63,6 +63,12 @@ button {
     border: none;
     border-radius: 8px;
     padding: 8px 16px;
+    cursor: pointer; /* indicate button is clickable */
+}
+
+/* show how button looks when cursor hovers over it */
+button:hover {
+    background-color: #2d6acc;
 }
 
 .intro img {
